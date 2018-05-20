@@ -2,6 +2,8 @@
 
 React app that uses the [Flickr API](https://www.flickr.com/services/api/) to generate a photo carousel based on a Flickr gallery.
 
+[DEMO](https://flickr-assignment-app.herokuapp.com/)
+
 Getting Started
 ---------------
 
