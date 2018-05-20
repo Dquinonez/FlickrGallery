@@ -1,0 +1,42 @@
+.container {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}
+
+.loader:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border-top: 4px solid #66CCFF;;
+    border-right: 4px solid transparent;
+    animation: spinner .6s linear infinite;
+}
+
+h3 {
+    font-size: 36px;
+    line-height: 50px;
+    margin: 5px;
+    padding: 2%;
+    position: relative;
+    text-align: center;
+}
+
+.slick-dots li button:before {
+    color: #66CCFF;;
+}
+
+.slick-next:before, .slick-prev:before {
+    color: gray;
+}

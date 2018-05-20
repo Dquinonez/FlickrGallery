@@ -1,0 +1,22 @@
+.thumbnail {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.thumbnail-active {
+    background-color: #66CCFF;
+}
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .thumbnail {
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
+}
